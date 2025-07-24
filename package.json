@@ -2,13 +2,9 @@
   "name": "portfolio",
   "version": "1.0.0",
   "main": "index.js",
-  "workspaces": [
-    "proyecto-portfolio",
-    "proyecto-portfolio-backend"
-  ],
   "scripts": {
-    "build": "npm run build --workspace=proyecto-portfolio",
-    "start": "npm start --workspace=proyecto-portfolio-backend"
+    "build": "npm install --prefix proyecto-portfolio && npm install --prefix proyecto-portfolio-backend && npm exec --prefix proyecto-portfolio vite build",
+    "start": "npm run start --prefix proyecto-portfolio-backend"
   },
   "repository": {
     "type": "git",

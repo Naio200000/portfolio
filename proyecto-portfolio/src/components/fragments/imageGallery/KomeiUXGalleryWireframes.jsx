@@ -1,5 +1,5 @@
 import home from '../../../assets/imgs/komeiUX/01-home.JPG'
-import menu from '../../../assets/imgs/komeiUX/02-menu.jpg'
+import menu from '../../../assets/imgs/komeiUX/02-menu.JPG'
 import menuServicios from '../../../assets/imgs/komeiUX/02-menu-servicios.JPG'
 import semnarioNacional from '../../../assets/imgs/komeiUX/03-seminario-nacional.JPG'
 import seminarioNacionalInfo from '../../../assets/imgs/komeiUX/04-seminario-nacional-info.JPG'

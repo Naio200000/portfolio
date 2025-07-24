@@ -1,0 +1,31 @@
+{
+  "name": "proyecto-portfolio-backend",
+  "version": "0.1",
+  "description": "Backend de mi porfolio",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naio200000/proyecto-portfolio-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naio200000/proyecto-portfolio-backend/issues"
+  },
+  "homepage": "https://github.com/Naio200000/proyecto-portfolio-backend#readme",
+  "dependencies": {
+    "@upstash/ratelimit": "^2.0.5",
+    "@upstash/redis": "^1.34.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.14.3"
+  }
+}

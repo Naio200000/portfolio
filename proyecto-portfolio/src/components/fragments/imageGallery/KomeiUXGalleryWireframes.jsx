@@ -8,7 +8,7 @@ import formularioInscripcion from '../../../assets/imgs/komeiUX/06-formulario-in
 import formularioInscripcionVasio from '../../../assets/imgs/komeiUX/07-formulario-inscripcion-vacia.JPG'
 import formularioInscripcionLleno from '../../../assets/imgs/komeiUX/08-formulario-inscripcion-lleno.JPG'
 import carrito from '../../../assets/imgs/komeiUX/08-carrito.JPG'
-import pagoMercado from '../../../assets/imgs/komeiUX/09-pago-mercado.jJPG'
+import pagoMercado from '../../../assets/imgs/komeiUX/09-pago-mercado.JPG'
 import pagoTarjeta from '../../../assets/imgs/komeiUX/10-pago-tarjeta.JPG'
 import tarjetaVacia from '../../../assets/imgs/komeiUX/11-tarjeta-vacia.JPG'
 import tarjetaLleno from '../../../assets/imgs/komeiUX/12-tarjeta-llena.JPG'

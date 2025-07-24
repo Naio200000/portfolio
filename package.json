@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix proyecto-portfolio-backend && npm install --prefix proyecto-portfolio && npm run build --prefix proyecto-portfolio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naio200000/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naio200000/portfolio/issues"
+  },
+  "homepage": "https://github.com/Naio200000/portfolio#readme",
+  "description": ""
+}

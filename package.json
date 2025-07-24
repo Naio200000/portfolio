@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install --prefix proyecto-portfolio-backend && npm install --prefix proyecto-portfolio && npm run build --prefix proyecto-portfolio",
-    "start": "npm run dev --prefix proyecto-portfolio-backend"
+    "start": "npm run start --prefix proyecto-portfolio-backend"
   },
   "repository": {
     "type": "git",

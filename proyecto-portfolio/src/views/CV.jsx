@@ -1,5 +1,5 @@
 import Experiencias from '../components/fragments/CV/Experiencias';
-import Presentation from "../components/fragments/CV/Presentation";
+import Presentation from "../components/fragments/CV/presentation";
 import Titles from '../components/fragments/CV/titles';
 import H2 from "../components/labels/H2";
 import P from '../components/labels/P';

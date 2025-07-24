@@ -1,11 +1,11 @@
-import Experiencias from '../components/fragments/CV/Experiencias';
-import Presentation from "../components/fragments/CV/presentation";
-import Titles from '../components/fragments/CV/Titles';
+import Experiencias from '../components/fragments/cv/Experiencias';
+import Presentation from "../components/fragments/cv/presentation";
+import Titles from '../components/fragments/cv/Titles';
 import H2 from "../components/labels/H2";
 import P from '../components/labels/P';
 import Img from '../components/labels/Img';
 import profileImage from '../assets/imgs/cv/perfil.jpg' 
-import Skills from '../components/fragments/CV/Skills';
+import Skills from '../components/fragments/cv/Skills';
 import { useEffect, useState } from 'react';
 import SkeletonSkill from '../components/fragments/skeletons/SkeletonSkill';
 import SkeletonCert from '../components/fragments/skeletons/SkeletonCert';

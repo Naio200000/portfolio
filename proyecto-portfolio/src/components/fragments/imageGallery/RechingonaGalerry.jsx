@@ -25,7 +25,7 @@ import image27 from '../../../assets/imgs/rechingona/21-re-chingona_seleccion-de
 import image28 from '../../../assets/imgs/rechingona/22-re-chingona_seleccion-de-envio-copy-2.jpg';
 import image29 from '../../../assets/imgs/rechingona/23-re-chingona_registro-direccioon.jpg';
 import image30 from '../../../assets/imgs/rechingona/24-re-chingona_registro-direccion-vacioo.jpg';
-import image31 from '../../../assets/imgs/rechingona/25-re-chingona_rregistro-direccioon-llenoo.jpg';
+import image31 from '../../../assets/imgs/rechingona/25-re-chingona_registro-direccioon-lleno.jpg';
 import image32 from '../../../assets/imgs/rechingona/26-re-chingona_datos-tarjeta.jpg';
 import image33 from '../../../assets/imgs/rechingona/27-re-chingona_datos-tarjeta-vacio.jpg';
 import image34 from '../../../assets/imgs/rechingona/28-re-chingona_datos-tarjeta-lleno.jpg';
@@ -59,7 +59,7 @@ import thumgImage27 from '../../../assets/imgs/rechingona/thumbs/21-re chingona_
 import thumgImage28 from '../../../assets/imgs/rechingona/thumbs/22-re-chingona_seleccion-de-envio-copy-2.jpg';
 import thumgImage29 from '../../../assets/imgs/rechingona/thumbs/23-re-chingona_registro-direccioon.jpg';
 import thumgImage30 from '../../../assets/imgs/rechingona/thumbs/24-re-chingona_registro-direccion-vacioo.jpg';
-import thumgImage31 from '../../../assets/imgs/rechingona/thumbs/25-re-chingona_rregistro-direccioon-llenoo.jpg';
+import thumgImage31 from '../../../assets/imgs/rechingona/thumbs/25-re-chingona_registro-direccioon-lleno.jpg';
 import thumgImage32 from '../../../assets/imgs/rechingona/thumbs/26-re-chingona_datos-tarjeta.jpg';
 import thumgImage33 from '../../../assets/imgs/rechingona/thumbs/27-re-chingona_datos-tarjeta-vacio.jpg';
 import thumgImage34 from '../../../assets/imgs/rechingona/thumbs/28-re-chingona_datos-tarjeta-lleno.jpg';

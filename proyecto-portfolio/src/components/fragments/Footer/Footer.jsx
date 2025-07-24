@@ -1,6 +1,6 @@
 import P from '../../labels/P'
-import Links from '../Links/Links'
-import Socials from '../Links/Socials'
+import Links from '../links/Links'
+import Socials from '../links/Socials'
 
 const Footer = () => {
 

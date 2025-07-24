@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useCallback, useEffect, useRef, useState } from "react";
-import Links from "../Links/Links";
+import Links from "../links/Links";
 import P from "../../labels/P";
 
 const Nav = () => {

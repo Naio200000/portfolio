@@ -3,7 +3,7 @@ import H3 from '../../labels/H3';
 import P from '../../labels/P';
 import { Link } from 'react-router-dom';
 
-function Cards ({title, subtitle, image, link, linkExternal}) {
+function Cards ({title, subtitle, image, link}) {
     
     return (
         <div className='pt-2 basis-[30%] grow px-4 pb-8 bg-white drop-shadow-lg '>

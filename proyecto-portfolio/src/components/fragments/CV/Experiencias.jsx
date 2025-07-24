@@ -1,6 +1,6 @@
 import H4 from "../../labels/H4";
 import P from "../../labels/P";
-import Titles from "./titles";
+import Titles from "./Titles";
 
 
 const Experiencias = ({title, subtitle, dates, responsability, border}) => {

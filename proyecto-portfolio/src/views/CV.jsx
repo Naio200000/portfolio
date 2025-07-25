@@ -13,7 +13,7 @@ import SkeletonExp from '../components/fragments/skeletons/SkeletonExp';
 
 function CV() {
 
-    const BASE_URL = import.meta.env.NODE_ENV === development ? 'http://localhost:5001' : '/cv';
+    const BASE_URL = import.meta.env.NODE_ENV === "development" ? 'http://localhost:5001' : '/cv';
     
     const [ loadingSkills, setLoadingSkills ] = useState(true);
     const [ loadingExp, setLoadingExp ] = useState(true);

@@ -12,6 +12,8 @@ import SkeletonCert from '../components/fragments/skeletons/SkeletonCert';
 import SkeletonExp from '../components/fragments/skeletons/SkeletonExp';
 
 function CV() {
+
+    const BASE_URL = import.meta.env.NODE_ENV === development ? 'http://localhost:5001' : '/cv';
     
     const [ loadingSkills, setLoadingSkills ] = useState(true);
     const [ loadingExp, setLoadingExp ] = useState(true);
@@ -23,7 +25,7 @@ function CV() {
 
         const fetchSkills = async () => {
             try {
-                const res = await fetch('http://localhost:5001/cv/skills')
+                const res = await fetch(`${BASE_URL}/skills`)
                 const data = await res.json();
                 setSkills(data);
             } catch (error) {
@@ -41,7 +43,7 @@ function CV() {
 
         const fetchExperiences = async () => {
             try {
-                const res = await fetch('http://localhost:5001/cv/experiences')
+                const res = await fetch(`${BASE_URL}/experiences`)
                 const data = await res.json();
                 setExperiences(data);
             } catch (error) {
@@ -58,7 +60,7 @@ function CV() {
     useEffect(() => {
         const fetchCertifications = async () => {
             try {
-                const res = await fetch('http://localhost:5001/cv/certifications')
+                const res = await fetch(`${BASE_URL}/certifications`)
                 const data = await res.json();
                 setCertifications(data);
             } catch (error) {
